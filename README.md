@@ -7,10 +7,11 @@ website.
 ## List of examples
 
 - Getting Started
-  - [MinimalApp1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp1):
-  - [MinimalApp2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp2):
+  - [MinimalApp1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp1): A minimal application that does nothing.
+  - [MinimalApp2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp2): A minimal application that displays a window that can be closed.
 - Standard Controls
-  - [WxStaticText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxStaticText1): basic use of a wxTextCtrl control.
+  - [WxButton1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxButton1): basic use of a wxButton control.
+  - [WxStaticText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxStaticText1): basic use of a wxStaticText control.
 
 ## License
 
