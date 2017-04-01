@@ -6,7 +6,8 @@ website.
 
 ## List of examples
 
-- [WxStaticText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxStaticText1): basic use of a wxTextCtrl control.
+- Standard Controls
+ - [WxStaticText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxStaticText1): basic use of a wxTextCtrl control.
 
 ## License
 
