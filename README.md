@@ -6,6 +6,9 @@ website.
 
 ## List of examples
 
+- Getting Started
+  - [MinimalApp1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp1):
+  - [MinimalApp2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp2):
 - Standard Controls
   - [WxStaticText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxStaticText1): basic use of a wxTextCtrl control.
 
