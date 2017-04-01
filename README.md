@@ -4,6 +4,10 @@ This repository contains the source code for the examples associated
 with the wxWidget tutorials presented on the http://www.wxishiko.com/wxWidgetsTutorials
 website.
 
+## List of examples
+
+- [WxStaticText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxStaticText1): basic use of a wxTextCtrl control.
+
 ## License
 
 Copyright (c) 2015-2017 Xavier Leclercq
