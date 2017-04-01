@@ -4,6 +4,7 @@
 *.suo
 *.pdb
 *.opendb
+*.vc.db
 .vs
 Debug/
 Release/

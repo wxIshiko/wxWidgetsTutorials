@@ -12,6 +12,7 @@ website.
 - Standard Controls
   - [WxButton1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxButton1): basic use of a wxButton control.
   - [WxStaticText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxStaticText1): basic use of a wxStaticText control.
+  - [WxTextCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxTextCtrl1): basic use of a wxTextCtrl control.
 
 ## License
 
