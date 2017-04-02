@@ -1,0 +1,33 @@
+toolsets = vs2013;
+
+vs2013.solutionfile = ../msw/WxColourPickerCtrl1_vc12.sln;
+
+setting WXWIDGETS_ROOT
+{
+    help = "Path to the WxWidgets installation";
+    default = '$(WXWIN)';
+}
+
+program WxColourPickerCtrl1
+{
+    vs2013.projectfile = ../msw/WxColourPickerCtrl1_vc12.vcxproj;
+
+    win32-subsystem = windows;
+
+    includedirs += $(WXWIDGETS_ROOT)/include;
+    includedirs += $(WXWIDGETS_ROOT)/include/msvc;
+    libdirs += $(WXWIDGETS_ROOT)/lib/vc_lib;
+
+    headers
+    {
+        ../../src/WindowIDs.h
+        ../../src/WxColourPickerCtrl1App.h
+        ../../src/WxColourPickerCtrl1Frame.h
+    }
+
+    sources
+    {
+        ../../src/WxColourPickerCtrl1App.cpp
+        ../../src/WxColourPickerCtrl1Frame.cpp
+    }
+}
