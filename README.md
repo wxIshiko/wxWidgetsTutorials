@@ -22,6 +22,7 @@ website.
   - [WxFilePickerCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/PickerControls/WxFilePickerCtrl1): basic use of a wxFilePickerCtrl control.
 - Book Controls
   - [WxNotebook1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/BookControls/WxNotebook1): basic use of a wxNotebook control.
+  - [WxNotebook2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/BookControls/WxNotebook2): shows how to handle wxNotebook events.
 
 ## License
 
