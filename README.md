@@ -12,9 +12,12 @@ website.
 - Standard Controls
   - [WxButton1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxButton1): basic use of a wxButton control.
   - [WxCheckBox1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxCheckBox1): basic use of a wxCheckBox control.
+  - [WxRadioBox1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxRadioBox1): basic use of a wxRadioBox control.
   - [WxStaticText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxStaticText1): basic use of a wxStaticText control.
   - [WxTextCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxTextCtrl1): basic use of a wxTextCtrl control.
   - [WxTextCtrl2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxTextCtrl2): basic use of a multiline wxTextCtrl control.
+- Picker Controls
+  - [WxColourPickerCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/PickerControls/WxColourPickerCtrl1): basic use of a wxColourPickerCtrl control.
 
 ## License
 
