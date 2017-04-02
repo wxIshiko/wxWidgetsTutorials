@@ -20,6 +20,8 @@ website.
   - [WxColourPickerCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/PickerControls/WxColourPickerCtrl1): basic use of a wxColourPickerCtrl control.
   - [WxDirPickerCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/PickerControls/WxDirPickerCtrl1): basic use of a wxDirPickerCtrl control.
   - [WxFilePickerCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/PickerControls/WxFilePickerCtrl1): basic use of a wxFilePickerCtrl control.
+- Book Controls
+  - [WxNotebook1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/BookControls/WxNotebook1): basic use of a wxNotebook control.
 
 ## License
 
