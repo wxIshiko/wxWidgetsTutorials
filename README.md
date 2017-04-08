@@ -23,6 +23,7 @@ website.
 - Book Controls
   - [WxNotebook1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/BookControls/WxNotebook1): basic use of a wxNotebook control.
   - [WxNotebook2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/BookControls/WxNotebook2): shows how to handle wxNotebook events.
+  - [WxTreebook1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/BookControls/WxTreebook1): basic use of a wxTreebook control.
 - wxStyledTextCtrl (source code editing control based on Scintilla)
   - [WxStyledTextCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/wxStyledTextCtrl/WxStyledTextCtrl1): basic use of a wxStyledTextCtrl control.
   - [WxStyledTextCtrl2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/wxStyledTextCtrl/WxStyledTextCtrl2): use of a wxStyledTextCtrl control to display C++ code.
