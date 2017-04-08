@@ -17,7 +17,8 @@ website.
   - [WxTextCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxTextCtrl1): basic use of a wxTextCtrl control.
   - [WxTextCtrl2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxTextCtrl2): basic use of a multiline wxTextCtrl control.
 - Tree and List Controls
-  - [WxListView1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/TreeAndListControls/WxListView1): basic use of a wxListView control.
+  - [WxListView1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/TreeAndListControls/WxListView1): basic use of a wxListView control (1 column).
+  - [WxListView2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/TreeAndListControls/WxListView2): basic use of a wxListView control (2 columns).
 - Picker Controls
   - [WxColourPickerCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/PickerControls/WxColourPickerCtrl1): basic use of a wxColourPickerCtrl control.
   - [WxDirPickerCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/PickerControls/WxDirPickerCtrl1): basic use of a wxDirPickerCtrl control.
