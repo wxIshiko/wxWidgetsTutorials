@@ -1,0 +1,33 @@
+toolsets = vs2013;
+
+vs2013.solutionfile = ../msw/WxTreeCtrl2_vc12.sln;
+
+setting WXWIDGETS_ROOT
+{
+    help = "Path to the WxWidgets installation";
+    default = '$(WXWIN)';
+}
+
+program WxTreeCtrl2
+{
+    vs2013.projectfile = ../msw/WxTreeCtrl2_vc12.vcxproj;
+
+    win32-subsystem = windows;
+
+    includedirs += $(WXWIDGETS_ROOT)/include;
+    includedirs += $(WXWIDGETS_ROOT)/include/msvc;
+    libdirs += $(WXWIDGETS_ROOT)/lib/vc_lib;
+
+    headers
+    {
+        ../../src/WindowIDs.h
+        ../../src/WxTreeCtrl2App.h
+        ../../src/WxTreeCtrl2Frame.h
+    }
+
+    sources
+    {
+        ../../src/WxTreeCtrl2App.cpp
+        ../../src/WxTreeCtrl2Frame.cpp
+    }
+}
