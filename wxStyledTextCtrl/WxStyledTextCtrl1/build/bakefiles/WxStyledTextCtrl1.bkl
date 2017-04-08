@@ -1,0 +1,32 @@
+toolsets = vs2013;
+
+vs2013.solutionfile = ../msw/WxStyledTextCtrl1_vc12.sln;
+
+setting WXWIDGETS_ROOT
+{
+    help = "Path to the WxWidgets installation";
+    default = '$(WXWIN)';
+}
+
+program WxStyledTextCtrl1
+{
+    vs2013.projectfile = ../msw/WxStyledTextCtrl1_vc12.vcxproj;
+
+    win32-subsystem = windows;
+
+    includedirs += $(WXWIDGETS_ROOT)/include;
+    includedirs += $(WXWIDGETS_ROOT)/include/msvc;
+    libdirs += $(WXWIDGETS_ROOT)/lib/vc_lib;
+
+    headers
+    {
+        ../../src/WxStyledTextCtrl1App.h
+        ../../src/WxStyledTextCtrl1Frame.h
+    }
+
+    sources
+    {
+        ../../src/WxStyledTextCtrl1App.cpp
+        ../../src/WxStyledTextCtrl1Frame.cpp
+    }
+}
