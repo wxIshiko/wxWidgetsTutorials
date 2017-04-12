@@ -1,0 +1,32 @@
+toolsets = vs2013;
+
+vs2013.solutionfile = ../msw/WxFileDialog1_vc12.sln;
+
+setting WXWIDGETS_ROOT
+{
+    help = "Path to the WxWidgets installation";
+    default = '$(WXWIN)';
+}
+
+program WxFileDialog1
+{
+    vs2013.projectfile = ../msw/WxFileDialog1_vc12.vcxproj;
+
+    win32-subsystem = windows;
+
+    includedirs += $(WXWIDGETS_ROOT)/include;
+    includedirs += $(WXWIDGETS_ROOT)/include/msvc;
+    libdirs += $(WXWIDGETS_ROOT)/lib/vc_lib;
+
+    headers
+    {
+        ../../src/WxFileDialog1App.h
+        ../../src/WxFileDialog1Frame.h
+    }
+
+    sources
+    {
+        ../../src/WxFileDialog1App.cpp
+        ../../src/WxFileDialog1Frame.cpp
+    }
+}
