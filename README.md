@@ -34,6 +34,7 @@ website.
   - [WxStyledTextCtrl2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/wxStyledTextCtrl/WxStyledTextCtrl2): use of a wxStyledTextCtrl control to display C++ code.
 - Dialogs
   - [WxFileDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxFileDialog1): basic use of a wxFileDialog dialog.
+  - [WxDirDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxDirDialog1): basic use of a wxDirDialog dialog.
 
 ## License
 
