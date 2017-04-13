@@ -36,6 +36,7 @@ website.
   - [WxFileDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxFileDialog1): basic use of a wxFileDialog dialog.
   - [WxDirDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxDirDialog1): basic use of a wxDirDialog dialog.
   - [WxFontDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxFontDialog1): basic use of a wxFontDialog dialog.
+  - [WxWizard1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxWizard1): basic use of the wxWizard class.
 
 ## License
 
