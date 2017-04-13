@@ -1,0 +1,33 @@
+toolsets = vs2013;
+
+vs2013.solutionfile = ../msw/WxFontDialog1_vc12.sln;
+
+setting WXWIDGETS_ROOT
+{
+    help = "Path to the WxWidgets installation";
+    default = '$(WXWIN)';
+}
+
+program WxFontDialog1
+{
+    vs2013.projectfile = ../msw/WxFontDialog1_vc12.vcxproj;
+
+    win32-subsystem = windows;
+
+    includedirs += $(WXWIDGETS_ROOT)/include;
+    includedirs += $(WXWIDGETS_ROOT)/include/msvc;
+    libdirs += $(WXWIDGETS_ROOT)/lib/vc_lib;
+
+    headers
+    {
+        ../../src/WindowIDs.h
+        ../../src/WxFontDialog1App.h
+        ../../src/WxFontDialog1Frame.h
+    }
+
+    sources
+    {
+        ../../src/WxFontDialog1App.cpp
+        ../../src/WxFontDialog1Frame.cpp
+    }
+}
