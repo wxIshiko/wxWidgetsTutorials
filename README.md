@@ -37,6 +37,7 @@ website.
   - [WxDirDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxDirDialog1): basic use of a wxDirDialog dialog.
   - [WxFontDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxFontDialog1): basic use of a wxFontDialog dialog.
   - [WxWizard1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxWizard1): basic use of the wxWizard class.
+  - [WxWizard2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxWizard2): example of the wxWizard class with input validation.
 
 ## License
 
