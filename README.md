@@ -33,8 +33,9 @@ website.
   - [WxStyledTextCtrl1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/wxStyledTextCtrl/WxStyledTextCtrl1): basic use of a wxStyledTextCtrl control.
   - [WxStyledTextCtrl2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/wxStyledTextCtrl/WxStyledTextCtrl2): use of a wxStyledTextCtrl control to display C++ code.
 - Dialogs
-  - [WxFileDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxFileDialog1): basic use of a wxFileDialog dialog.
+  - [WxAboutBox1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxAboutBox1): basic use of the wxAboutBox function.
   - [WxDirDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxDirDialog1): basic use of a wxDirDialog dialog.
+  - [WxFileDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxFileDialog1): basic use of a wxFileDialog dialog.
   - [WxFontDialog1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxFontDialog1): basic use of a wxFontDialog dialog.
   - [WxWizard1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxWizard1): basic use of the wxWizard class.
   - [WxWizard2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Dialogs/WxWizard2): example of the wxWizard class with input validation.
