@@ -10,7 +10,7 @@ website.
   - [MinimalApp1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp1): A minimal application that does nothing.
   - [MinimalApp2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp2): A minimal application that displays a window that can be closed.
 - Drag and Drop
-  - [DragAndDrop1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/DragAndDrop/DragAndDrop1): use of wxDropSource to make a wxTextCtrl a drag and drop source.
+  - [DragAndDropText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/DragAndDrop/DragAndDropText1): use of wxDropSource to make a wxTextCtrl a drag and drop source.
 - Standard Controls
   - [WxButton1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxButton1): basic use of a wxButton control.
   - [WxCheckBox1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxCheckBox1): basic use of a wxCheckBox control.
