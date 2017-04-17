@@ -9,6 +9,8 @@ website.
 - Getting Started
   - [MinimalApp1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp1): A minimal application that does nothing.
   - [MinimalApp2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp2): A minimal application that displays a window that can be closed.
+- Sizers
+  - [SimpleFit1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Sizers/SimpleFit1): use of a wxBoxSizer and its Fit method to set the size of the main window based on its contents.
 - Drag and Drop
   - [DragAndDropText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/DragAndDrop/DragAndDropText1): use of wxDropSource to make a wxStaticText a drag and drop source.
   - [DragAndDropText2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/DragAndDrop/DragAndDropText2): use of wxTextDropTarget to make a wxTextCtrl a drag and drop target.
