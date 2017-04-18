@@ -21,8 +21,8 @@
 */
 
 #include "SimpleFit2Frame.h"
-#include "wx/sizer.h"
-#include "wx/stattext.h"
+#include <wx/sizer.h>
+#include <wx/stattext.h>
 
 SimpleFit2Frame::SimpleFit2Frame(const wxString& title)
     : wxFrame(NULL, wxID_ANY, title)

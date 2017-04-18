@@ -1,0 +1,34 @@
+toolsets = vs2015 vs2013;
+
+vs2015.solutionfile = ../msw/SimpleFit3_vc14.sln;
+vs2013.solutionfile = ../msw/SimpleFit3_vc12.sln;
+
+setting WXWIDGETS_ROOT
+{
+    help = "Path to the WxWidgets installation";
+    default = '$(WXWIN)';
+}
+
+program SimpleFit2
+{
+    vs2015.projectfile = ../msw/SimpleFit3_vc14.vcxproj;
+    vs2013.projectfile = ../msw/SimpleFit3_vc12.vcxproj;
+
+    win32-subsystem = windows;
+
+    includedirs += $(WXWIDGETS_ROOT)/include;
+    includedirs += $(WXWIDGETS_ROOT)/include/msvc;
+    libdirs += $(WXWIDGETS_ROOT)/lib/vc_lib;
+
+    headers
+    {
+        ../../src/SimpleFit3App.h
+        ../../src/SimpleFit3Frame.h
+    }
+
+    sources
+    {
+        ../../src/SimpleFit3App.cpp
+        ../../src/SimpleFit3Frame.cpp
+    }
+}
