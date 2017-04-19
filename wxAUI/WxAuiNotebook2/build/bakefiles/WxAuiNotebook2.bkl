@@ -1,0 +1,33 @@
+toolsets = vs2013;
+
+vs2013.solutionfile = ../msw/WxAuiNotebook2_vc12.sln;
+
+setting WXWIDGETS_ROOT
+{
+    help = "Path to the WxWidgets installation";
+    default = '$(WXWIN)';
+}
+
+program WxAuiNotebook2
+{
+    vs2013.projectfile = ../msw/WxAuiNotebook2_vc12.vcxproj;
+
+    win32-subsystem = windows;
+
+    includedirs += $(WXWIDGETS_ROOT)/include;
+    includedirs += $(WXWIDGETS_ROOT)/include/msvc;
+    libdirs += $(WXWIDGETS_ROOT)/lib/vc_lib;
+
+    headers
+    {
+        ../../src/WindowIDs.h
+        ../../src/WxAuiNotebook2App.h
+        ../../src/WxAuiNotebook2Frame.h
+    }
+
+    sources
+    {
+        ../../src/WxAuiNotebook2App.cpp
+        ../../src/WxAuiNotebook2Frame.cpp
+    }
+}
