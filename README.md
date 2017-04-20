@@ -18,6 +18,7 @@ website.
   - [DragAndDropText2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/DragAndDrop/DragAndDropText2): use of wxTextDropTarget to make a wxTextCtrl a drag and drop target.
 - Windows
   - [WxSplitterWindow1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Windows/WxSplitterWindow1): basic use of a wxSplitterWindow (vertical split).
+  - [WxSplitterWindow2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Windows/WxSplitterWindow2): splittig and unsplitting a wxSplitterWindow programatically.
 - Standard Controls
   - [WxButton1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxButton1): basic use of a wxButton control.
   - [WxCheckBox1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/StandardControls/WxCheckBox1): basic use of a wxCheckBox control.
