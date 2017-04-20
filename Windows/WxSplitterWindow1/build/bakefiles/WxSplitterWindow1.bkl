@@ -1,0 +1,32 @@
+toolsets = vs2013;
+
+vs2013.solutionfile = ../msw/WxSplitterWindow1_vc12.sln;
+
+setting WXWIDGETS_ROOT
+{
+    help = "Path to the WxWidgets installation";
+    default = '$(WXWIN)';
+}
+
+program WxSplitterWindow1
+{
+    vs2013.projectfile = ../msw/WxSplitterWindow1_vc12.vcxproj;
+
+    win32-subsystem = windows;
+
+    includedirs += $(WXWIDGETS_ROOT)/include;
+    includedirs += $(WXWIDGETS_ROOT)/include/msvc;
+    libdirs += $(WXWIDGETS_ROOT)/lib/vc_lib;
+
+    headers
+    {
+        ../../src/WxSplitterWindow1App.h
+        ../../src/WxSplitterWindow1Frame.h
+    }
+
+    sources
+    {
+        ../../src/WxSplitterWindow1App.cpp
+        ../../src/WxSplitterWindow1Frame.cpp
+    }
+}
