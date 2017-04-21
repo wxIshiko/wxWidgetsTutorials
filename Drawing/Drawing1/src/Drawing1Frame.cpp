@@ -36,6 +36,7 @@ void Drawing1Frame::OnPaint(wxPaintEvent& evt)
     dc.SetPen(*wxGREY_PEN);
     dc.SetBrush(*wxLIGHT_GREY_BRUSH);
     dc.DrawRectangle(10, 10, 50, 50);
+    dc.DrawCircle(95, 35, 25);
 }
 
 wxBEGIN_EVENT_TABLE(Drawing1Frame, wxFrame)
