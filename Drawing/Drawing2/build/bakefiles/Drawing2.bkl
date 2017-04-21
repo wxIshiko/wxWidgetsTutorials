@@ -1,0 +1,34 @@
+toolsets = vs2015 vs2013;
+
+vs2015.solutionfile = ../msw/Drawing2_vc14.sln;
+vs2013.solutionfile = ../msw/Drawing2_vc12.sln;
+
+setting WXWIDGETS_ROOT
+{
+    help = "Path to the WxWidgets installation";
+    default = '$(WXWIN)';
+}
+
+program Drawing2
+{
+    vs2015.projectfile = ../msw/Drawing2_vc14.vcxproj;
+    vs2013.projectfile = ../msw/Drawing2_vc12.vcxproj;
+
+    win32-subsystem = windows;
+
+    includedirs += $(WXWIDGETS_ROOT)/include;
+    includedirs += $(WXWIDGETS_ROOT)/include/msvc;
+    libdirs += $(WXWIDGETS_ROOT)/lib/vc_lib;
+
+    headers
+    {
+        ../../src/Drawing2App.h
+        ../../src/Drawing2Frame.h
+    }
+
+    sources
+    {
+        ../../src/Drawing2App.cpp
+        ../../src/Drawing2Frame.cpp
+    }
+}
