@@ -14,7 +14,8 @@ website.
   - [SimpleFit2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Sizers/SimpleFit2): use of a wxBoxSizer and its Fit method to set the size of the main window based on its contents.
   - [SimpleFit3](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Sizers/SimpleFit3): use of a wxBoxSizer and its SetSizeHints method to set the size of the main window based on its contents.
 - Drawing
-  - [Drawing1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Drawing/Drawing1): implementation of a simple EVT_PAINT handler that uses wxPaintDC to draw a rectangle.
+  - [Drawing1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Drawing/Drawing1): implementation of a simple EVT_PAINT handler that uses wxPaintDC to draw a rectangle and a circle.
+  - [Drawing2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Drawing/Drawing2): implementation of a simple EVT_PAINT handler that uses wxGraphicsContext to draw a rectangle and a circle.
 - Drag and Drop
   - [DragAndDropText1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/DragAndDrop/DragAndDropText1): use of wxDropSource to make a wxStaticText a drag and drop source.
   - [DragAndDropText2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/DragAndDrop/DragAndDropText2): use of wxTextDropTarget to make a wxTextCtrl a drag and drop target.
