@@ -9,6 +9,8 @@ website.
 - Getting Started
   - [MinimalApp1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp1): A minimal application that does nothing.
   - [MinimalApp2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/GettingStarted/MinimalApp2): A minimal application that displays a window that can be closed.
+- Events
+  - [UpdateUIEvent1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Events/UpdateUIEvent1): use of the wxUpdateUIEvent to update the state of a menu item.
 - Sizers
   - [SimpleFit1](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Sizers/SimpleFit1): use of a wxBoxSizer and its Fit method to set the size of the main window based on its contents.
   - [SimpleFit2](https://github.com/wxIshiko/wxWidgetsTutorials/tree/master/Sizers/SimpleFit2): use of a wxBoxSizer and its Fit method to set the size of the main window based on its contents.
