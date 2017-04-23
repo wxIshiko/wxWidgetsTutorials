@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UpdateUIEvent1", "UpdateUIEvent1_vc14.vcxproj", "{CA4DB817-F139-5A3A-85EC-EED66B49A49C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA4DB817-F139-5A3A-85EC-EED66B49A49C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA4DB817-F139-5A3A-85EC-EED66B49A49C}.Debug|Win32.Build.0 = Debug|Win32
+		{CA4DB817-F139-5A3A-85EC-EED66B49A49C}.Release|Win32.ActiveCfg = Release|Win32
+		{CA4DB817-F139-5A3A-85EC-EED66B49A49C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
